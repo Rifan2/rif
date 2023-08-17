@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('back2.2.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+}
+.wrapper{
+  width: 480px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+ 
+}
+
+
+.wrapper h1{ 
+font-size: 36px;
+text-align: center;
+
+}
+.wrapper .btn {
+width: 50%;
+height: 44px;
+background: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-size: 600;
+}
+
+#edit-tool {
+  /* أنماط أداة التعديل */
+  width: 100%;
+padding: 12px 20px;
+margin: 4px 0;
+box-sizing: border-box;
+border: 3px solid #ccc;
+cursor: pointer;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+
+#delete-tool {
+  /* أنماط أداة الحذف */
+  width: 100%;
+padding: 12px 20px;
+margin: 4px 0;
+box-sizing: border-box;
+border: 3px solid #ccc;
+cursor: pointer;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+
+
+
+input[type=text] {
+width: 100%;
+padding: 12px 20px;
+margin: 4px 0;
+box-sizing: border-box;
+border: 3px solid #ccc;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+
+
+}
+input[type=text]:focus{
+border: 6px solid #555;
+}
+
+.button {
+border-radius: 4px;
+display: inline-block;
+border-radius: 4px;
+background-color: #3c7444;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 420px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+
+
+}
+
+
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+.button:hover span:after {
+opacity: 1;
+right:0;
+}
+a:link, a:visited {
+  background-color: #3c7444;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+a:hover, a:active {
+  background-color: #3c7444;
+}

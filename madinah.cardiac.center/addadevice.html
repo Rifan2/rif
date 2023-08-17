@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta http-equiv="x-UA-Compatible" content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title> madinah.cardiac.center</title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<div class="wrapper">
+     <h1>Add a device</h1><br>
+     <div class="input-box">
+ <form action="devices.php?func=add_device" method="post">
+     Device name<input type="text" name="Device_name" required>
+          <i class='bx bxs-device'></i>
+     </div>
+     <div class="input-box">
+     Serial numbe<input type="text" name="Serial_numbe" required>
+          <i class='bx bxs-device'></i>
+     </div>
+     <div class="input-box">
+     manufactured<input type="text" name="manufactured" required>
+        <i class='bx bxs-device'></i>
+   </div>
+     <div class="input-box">
+     model<input type="text" name="model" required>
+          <i class='bx bxs-device'></i>
+     </div>
+     <div class="input-box">
+     Physicaladdress <input type="text" name="Physicaladdress" required>
+          <i class='bx bxs-device'></i>
+     </div>
+     <div class="input-box">
+     Date_of_service
+         <input type="text" name="Date_of_service" required>
+          <i class='bx bxs-device'></i>
+     </div>
+      <p1>type:</p1>
+     <input type="radio" id="smart Phone" name="fav_language" value="smart Phone">
+     <label for="smart Phone">smart Phone</label><br>
+     <input type="radio" id="laptops" name="fav_language" value="laptops">
+     <label for="laptops">laptops</label><br>
+    <input type="radio" id="portable" name="fav_language" value="portable">
+     <label for="portable">portable</label>
+
+     <p> status of device:</p>
+     <input type="radio" id="work" name="fav_language" value="work">
+     <label for="work">work</label><br>
+     <input type="radio" id="disabled" name="fav_language" value="disabled">
+     <label for="disabled">disabled</label><br>
+     <input type="radio" id="damaged" name="fav_language" value="damaged">
+     <label for="damaged">damaged</label><br>
+
+
+          <div>
+               <button class="button"><span>Add</span></button>
+          </div>
+     </form>     
+</div>
+
+</body>
+</html>
+
